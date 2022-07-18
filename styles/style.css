@@ -1,13 +1,48 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital@0;1&family=Poppins:wght@500&display=swap");
+/* base-style and utilites */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px;
+}
 /* top-players-styles */
+.top_players {
+  margin-bottom: 30px;
+}
+.top_title {
+  font-size: 24px;
+  color: #562eff;
+  margin-top: 3px;
+}
+
 .top_player {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
 }
+.player img {
+  width: 56px;
+  height: 56px;
+}
+
 .player {
   display: flex;
   align-items: center;
 }
-.top_player img {
-  width: 56px;
-  height: 56px;
+.player_name {
+  margin-left: 16px;
+  font-size: 18px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  width: 807px;
 }
