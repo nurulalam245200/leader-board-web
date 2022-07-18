@@ -1,6 +1,14 @@
-/* fonts */
+/*
+-------------------
+fonts 
+-------------------
+*/
 @import url("https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital@0;1&family=Poppins:wght@500&display=swap");
-/* base-style and utilites */
+/*
+-----------------
+ base-style and utilites
+-----------------
+  */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
@@ -14,7 +22,11 @@ main {
   width: 870px;
   padding: 30px;
 }
-/* top-players-styles */
+/*
+----------------
+ top-players-styles
+----------------
+ */
 .top_players {
   margin-bottom: 30px;
 }
@@ -45,4 +57,37 @@ main {
 hr {
   border: 1px solid #d1d1d1;
   width: 807px;
+}
+/*
+----------------
+ blogs-styles 
+ ---------------
+ */
+
+.thumbnails img {
+  width: 177px;
+  height: 117px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: #c4c4c4;
+}
+.blog {
+  display: flex;
+}
+.blog_info {
+  margin-left: 16px;
+}
+
+.blog_title {
+  font-size: 20px;
+  color: #000000;
+}
+.blog_author {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.blog_author a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #562eff;
 }
